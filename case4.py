@@ -1,0 +1,5 @@
+n = int(input('Введите общее количество журавликов :'))
+katy = ((n // 3)*2)
+pety = ((katy // 2)//2)
+sergey = int(pety)
+print(katy , pety, sergey)
