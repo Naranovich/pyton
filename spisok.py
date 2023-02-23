@@ -43,3 +43,8 @@ def choice_todo():
             print(item[0].center(20), item[1].center(20), item[2].center(20), item[3].center(20), item[4].center(15), item[5].center(30))
         else:
             print("Данные не обнаружены")
+from spisok import *
+
+creating()
+
+choice_todo()
